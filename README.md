@@ -39,6 +39,24 @@ make test
 ./scripts/tests --help
 ```
 
+## Demo Program
+
+A standalone demo program is included to illustrate ML-DSA usage:
+
+- Generates a keypair
+- Signs a message
+- Verifies the signature
+
+The demo is isolated and does not modify the main library. It works on Linux, macOS, and Windows.
+
+**Build and run the demo:**
+
+```bash
+cd demo
+make
+./demo
+```
+
 ## Contributing
 
 If you want to help us build mldsa-native, please reach out. You can contact the mldsa-native team
